@@ -1,4 +1,14 @@
-### Hi there 👋
+### Hi, I'm Catharine! 👋
+
+I love helping create inclusive experiences for everyone. I'm excited to bring this to GitHub as the Sr. Program Manager for Accessibility. I'm a bilateral cochlear implant user. 
+
+When I'm not working, you can find me: 
+* :golf: being active through golf, tennis, pickleball, snow skiing, trail running, Peloton, or CrossFit,
+* :hammer: figuring out my DIY project(s). I'm either on YouTube teaching myself or in my evening woodworking class, 
+* :watch: experimenting with tech to create more accessible uses, like setting up my home to flash my lights or alert my watch via sound triggers,  
+* :ear: serving on the [Alexander Graham Bell Association Board of Directors](http://www.agbell.org "Alexander Graham Bell Association Board of Directors") and/or preparing/leading their summer teen leadership programs
+
+[Find me on LinkedIn](http://linkedin.com/catharinemcnally "Find me on LinkedIn")
 
 <!--
 **cmcnally/cmcnally** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
