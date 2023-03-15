@@ -1,0 +1,26 @@
+/*simple one*/
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+    </head>
+    <body>
+    <div class="container">
+      <div class="row">
+        <div class="col left">
+        </div>
+        <div class="col-lg-auto hellos">
+          <div class="one-hello simple">
+            hello  world
+          </div>
+        </div>
+        <div class="col right">
+        </div>
+      </div>
+    </div>
+    </body>
+</html>
+
+/* complicated one */
+/* Notice that Codepen only contains the body of a HTML file! */
+/*https://codepen.io/naomi789/pen/abaYRWx*/
