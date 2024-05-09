@@ -1,0 +1,17 @@
+name: Notify Assignee
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'not started')
+    steps:
+      - name: Notify Assignee and @cmcnally
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            :warning: This issue has been labeled as "not started". @${{ github.event.issue.assignee.login }}, please take note and start working on it as soon as possible. @cmcnally

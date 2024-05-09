@@ -10,6 +10,21 @@ When I'm not working, you can find me:
 
 [Find me on LinkedIn](http://linkedin.com/catharinemcnally "Find me on LinkedIn")
 
+### GitHub Actions for Project Board Management
+
+We have introduced new GitHub actions to our repository to automate the management of issue status labels and ensure timely updates and notifications. These actions are designed to:
+
+- **Update Status Labels**: Automatically updates the status labels of issues at specified frequencies:
+  - One status label is updated once a year.
+  - The second status label is updated twice a year.
+  - The third status label is updated every quarter.
+  
+- **Notify Assignees**: Sends notifications to the assignee and @cmcnally when an issue's status label is marked as "not started".
+
+#### Viewing Label Changes
+
+To view the changes in status labels, you can check the insights tab for a graph of label updates over time. Alternatively, for a more interactive view, you can use a mermaid.js view within a discussion post. Instructions on setting up and viewing these graphs are available in our repository's wiki.
+
 <!--
 **cmcnally/cmcnally** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

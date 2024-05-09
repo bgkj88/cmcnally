@@ -1,0 +1,23 @@
+name: Update Status Labels
+
+on:
+  schedule:
+    # Once a year for the first status label
+    - cron: '0 0 1 1 *'
+    # Twice a year for the second status label
+    - cron: '0 0 1 1,7 *'
+    # Every quarter for the third status label
+    - cron: '0 0 1 1,4,7,10 *'
+
+jobs:
+  update-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Update status labels
+        run: |
+          # Logic to update status labels according to specified frequencies
+          # This is a placeholder for the actual logic to update labels
+          echo "Update status labels based on the schedule"
